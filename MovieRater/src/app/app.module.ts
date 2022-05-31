@@ -7,6 +7,7 @@ import { MainModule } from './main/main.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     AuthModule,
     MainModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule,
   ],
   providers: [HttpClientModule],
   bootstrap: [AppComponent]

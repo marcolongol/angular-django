@@ -1,6 +1,4 @@
-import { NONE_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from 'src/app/api.service';
 import { Input, Output, EventEmitter } from '@angular/core';
 
 @Component({

@@ -6,6 +6,7 @@ import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { MovieFormComponent } from './movie-form/movie-form.component';
 import { ApiService } from '../api.service';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 const routes: Routes = [
   {path: 'movies', 'component': MainComponent }
@@ -20,7 +21,8 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    FontAwesomeModule
   ],
   providers: [
     ApiService
